@@ -1,0 +1,15 @@
+{
+  "name": "my-mfe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:host": "lerna run start --scope=@mfe/host",
+    "start:remote": "lerna run start --scope=@mfe/remote",
+    "start:all": "lerna run --parallel start ",
+    "build:shared": "lerna run build --scope=@mfe/shared"
+  }
+}

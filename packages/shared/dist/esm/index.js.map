@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/Button.tsx"],
+  "sourcesContent": ["import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n"],
+  "mappings": "AAGS,cAAAA,MAAA,oBADF,IAAMC,EAAS,IACbD,EAAC,OAAI,kBAAM",
+  "names": ["jsx", "Button"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/index.ts", "../../src/components/Button.tsx"],
+  "sourcesContent": ["export * from \"./components\";\n", "import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,YAAAE,IAAA,eAAAC,EAAAH,GCGS,IAAAI,EAAA,6BADIC,EAAS,OACb,OAAC,OAAI,kBAAM",
+  "names": ["src_exports", "__export", "Button", "__toCommonJS", "import_jsx_runtime", "Button"]
+}
