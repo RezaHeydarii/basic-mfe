@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "jetifier",
+      "react-native-safe-area-context",
+      "react-native-screens",
+      "@react-native-community/**",
+      "@react-navigation/**"
+    ]
+  },
   "scripts": {
     "start:host": "lerna run start --scope=@mfe/host",
     "start:remote": "lerna run start --scope=@mfe/remote",

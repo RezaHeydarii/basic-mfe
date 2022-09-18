@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": ["../../src/index.ts", "../../src/components/Button.tsx"],
-  "sourcesContent": ["export * from \"./components\";\n", "import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n"],
-  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,YAAAE,IAAA,eAAAC,EAAAH,GCGS,IAAAI,EAAA,6BADIC,EAAS,OACb,OAAC,OAAI,kBAAM",
-  "names": ["src_exports", "__export", "Button", "__toCommonJS", "import_jsx_runtime", "Button"]
+  "sources": ["../../src/index.ts", "../../src/components/Button.tsx", "../../src/hooks/useData.ts"],
+  "sourcesContent": ["export * from \"./components\";\nexport * from \"./hooks\";\n", "import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n", "import React from \"react\";\n\nexport const useData = () => {\n  return [\n    { title: \"Test\", id: 1 },\n    { title: \"Test2\", id: 2 },\n    { title: \"Test3\", id: 3 },\n  ] as const;\n};\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,YAAAE,EAAA,YAAAC,IAAA,eAAAC,EAAAJ,GCGS,IAAAK,EAAA,6BADIC,EAAS,OACb,OAAC,OAAI,kBAAM,ECDb,IAAMC,EAAU,IACd,CACL,CAAE,MAAO,OAAQ,GAAI,CAAE,EACvB,CAAE,MAAO,QAAS,GAAI,CAAE,EACxB,CAAE,MAAO,QAAS,GAAI,CAAE,CAC1B",
+  "names": ["src_exports", "__export", "Button", "useData", "__toCommonJS", "import_jsx_runtime", "Button", "useData"]
 }

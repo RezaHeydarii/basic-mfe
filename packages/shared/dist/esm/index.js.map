@@ -1,7 +1,7 @@
 {
   "version": 3,
-  "sources": ["../../src/components/Button.tsx"],
-  "sourcesContent": ["import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n"],
-  "mappings": "AAGS,cAAAA,MAAA,oBADF,IAAMC,EAAS,IACbD,EAAC,OAAI,kBAAM",
-  "names": ["jsx", "Button"]
+  "sources": ["../../src/components/Button.tsx", "../../src/hooks/useData.ts"],
+  "sourcesContent": ["import React from \"react\";\n\nexport const Button = () => {\n  return <div>Button</div>;\n};\n", "import React from \"react\";\n\nexport const useData = () => {\n  return [\n    { title: \"Test\", id: 1 },\n    { title: \"Test2\", id: 2 },\n    { title: \"Test3\", id: 3 },\n  ] as const;\n};\n"],
+  "mappings": "AAGS,cAAAA,MAAA,oBADF,IAAMC,EAAS,IACbD,EAAC,OAAI,kBAAM,ECDb,IAAME,EAAU,IACd,CACL,CAAE,MAAO,OAAQ,GAAI,CAAE,EACvB,CAAE,MAAO,QAAS,GAAI,CAAE,EACxB,CAAE,MAAO,QAAS,GAAI,CAAE,CAC1B",
+  "names": ["jsx", "Button", "useData"]
 }
